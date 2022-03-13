@@ -436,12 +436,12 @@ jobs:
         EOL
     - name: Get ipanda.m3u8
       run: |
-        touch ./ipanda.m3u8
+        touch ./.m3u8
         sudo cat >./ipanda.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=uGMUb2gYeCg)
+        $(youtube-dl -g https://www.youtube.com/c/cgtn/live)
         EOL
     - name: Get kpop.m3u8
       run: |
