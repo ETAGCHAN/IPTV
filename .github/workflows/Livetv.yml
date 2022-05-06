@@ -18,7 +18,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/c/ctitv/live)
+        $(youtube-dl -g https://www.youtube.com/watch?v=_QbRXRnHMVY)
         EOL
     - name: Get ttvnews.m3u8
       run: |
@@ -45,7 +45,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/c/華視直播頻道/live)
+        $(youtube-dl -g https://www.youtube.com/c/CtsTw/live)
         EOL
     - name: Get ctvnews.m3u8
       run: |
@@ -108,7 +108,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=V0WxUakDV7M)
+        $(youtube-dl -g https://www.youtube.com/watch?v=2mCSYvcfhtc)
         EOL
     - name: Get cctv4.m3u8
       run: |
@@ -135,7 +135,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=oV_i3Hsl_zg)
+        $(youtube-dl -g https://www.youtube.com/channel/UClrEYreVkBee7ZQYei_6Jqg/live)
         EOL
     - name: Get daai2.m3u8
       run: |
@@ -182,14 +182,14 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=540000
         $(youtube-dl -g https://www.youtube.com/c/yoyotvebc/live)
         EOL
-    - name: Get ctinews.m3u8
+    - name: Get htv.m3u8
       run: |
-        touch ./ctinews.m3u8
-        sudo cat >./ctinews.m3u8 <<EOL
+        touch ./htv.m3u8
+        sudo cat >./htv.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=lu_BJKxqGnk)
+        $(youtube-dl -g https://www.youtube.com/channel/UCSWOnDD1KIriGmyQ7SgNA4A/live)
         EOL
     - name: Get gstv.m3u8
       run: |
@@ -207,7 +207,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=PQLMD4iHhG8)
+        $(youtube-dl -g https://www.youtube.com/channel/UCBVkoTHzszNtJsG7fWaHbsg/live)
         EOL
     - name: Get parliamentarytv2.m3u8
       run: |
@@ -270,7 +270,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=SgScPWFgZWI)
+        $(youtube-dl -g https://www.youtube.com/c/ArirangCoKrTV/live)
         EOL
     - name: Get arirangnews.m3u8
       run: |
@@ -279,7 +279,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=540000
-        $(youtube-dl -g https://www.youtube.com/watch?v=u7q0KzudBZo)
+        $(youtube-dl -g https://www.youtube.com/c/ArirangCoKrArirangNEWS/live)
         EOL
     - name: Get cna.m3u8
       run: |
@@ -387,7 +387,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=540000
-        $(youtube-dl -g https://www.youtube.com/watch?v=NjugILSG_Wo)
+        $(youtube-dl -g https://www.youtube.com/channel/UCknLrEdhRCp1aegoMqRaCZg/live)
         EOL
     - name: Get hokkaidonews.m3u8
       run: |
@@ -414,7 +414,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=EEIk7gwjgIM)
+        $(youtube-dl -g https://www.youtube.com/channel/UCakgsb0w7QB0VHdnCc-OVEA/live)
         EOL
     - name: Get spaceviewearth.m3u8
       run: |
@@ -423,7 +423,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=XBPjVzSoepo)
+        $(youtube-dl -g https://www.youtube.com/channel/UCXiIDOMOYZll36N2vvEmjQQ/live)
         EOL
     - name: Get ipanda.m3u8
       run: |
@@ -432,7 +432,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=uGMUb2gYeCg)
+        $(youtube-dl -g https://www.youtube.com/c/iPandaChannel/live)
         EOL
     - name: Get kpop.m3u8
       run: |
@@ -477,7 +477,7 @@ jobs:
         #EXTM3U_sd
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=gunaWMrfOoc)
+        $(youtube-dl -g https://www.youtube.com/c/EnglishClass101/live)
         EOL
     - name: Get learnjapanese.m3u8
       run: |
